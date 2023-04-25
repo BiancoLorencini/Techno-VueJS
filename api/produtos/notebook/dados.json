@@ -1,0 +1,20 @@
+{
+    "id":"notebook",
+    "nome": "Notebook",
+    "preco": 2999,
+    "descrição": "Notebook de alto desempenho, tela de alta definição e grande capacidade de armazenamento, ideal para trabalho e entretenimento.",
+    "estoque": 12,
+    "img": "./api/produtos/notebook/notebook-foto.jpg",
+    "avaliacoes": [
+        {
+            "nome": "Fabio",
+            "estrelas": 5,
+            "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades!"
+        },
+        {
+            "nome": "Nathalia",
+            "estrelas": 4,
+            "descricao": "Produto muito bom, mas poderia ser um pouco mais barato..."
+        }
+    ]
+}
