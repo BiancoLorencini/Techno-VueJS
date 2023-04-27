@@ -1,0 +1,50 @@
+body, h1, h2, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+     list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #1a1a1a 30%, #fff 30%);
+    font-family: 'Noto Serif', serif;
+}
+
+#app {
+    padding: 0px 80px;
+}
+
+/* Lista Produtos */
+
+.produtos {
+    max-width: 900px;
+    margin: 100px auto 0 auto;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background:#fff;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+}
+
+.produto_img {
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+.produto_titulo {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.produto_preco {
+    color: rgba(0,0,0,.5);
+}

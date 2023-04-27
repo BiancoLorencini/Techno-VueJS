@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="vue.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Techno</title>
 </head>
+
 <body>
     <div id="app">
-        se
+        <section class="produtos">
+            <div v-for="produto in produtos" :key="produto.id" class="produto">
+                <img :src="produto.img" :alt="produto.nome" class="produto_img">
+                <div class="produto_info">
+                    <span class="produto_preco">{{produto.preco}}</span>
+                    <h2 class="produto_titulo">{{produto.nome}}</h2>
+                </div>
+
+            </div>
+        </section>
     </div>
 
 
@@ -19,4 +33,5 @@
 
     <script src="./app.js"></script>
 </body>
+
 </html>
