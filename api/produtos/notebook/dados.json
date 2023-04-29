@@ -5,7 +5,7 @@
   "descricao": "Notebook de alto desempenho, tela de alta definição e grande capacidade de armazenamento, ideal para trabalho e entretenimento.",
   "estoque": 12,
   "img": "./api/produtos/notebook/notebook-foto.jpg",
-  "reviews": [
+  "avaliacoes": [
     {
       "nome": "Fábio",
       "estrelas": 5,
